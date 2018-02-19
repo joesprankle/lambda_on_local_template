@@ -11,7 +11,7 @@ grunt.initConfig({
    },
    lambda_deploy: {
     default: {
-        arn: 'arn:aws:lambda:us-west-2:501170096260:function:gist_commit',
+        arn: 'arn:aws:lambda:us-west-2:xxxx0096260:function:xxxxx',
         options: {
             enableVersioning: true,
             region: 'us-west-2'
