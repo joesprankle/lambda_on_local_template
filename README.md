@@ -1,6 +1,6 @@
 # Easy Barebones Lambda development (node)
 
-This allows you to geet started building a lambda function you can run/test locally and depoly from the cli when ready.
+This allows you to get started building a lambda function you can run/test locally and deploy from the cli when ready.
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ Edit your Gruntfile.js and input your the ARN
 arn: 'arn:aws:lambda:us-west-2:xxxx0096260:function:xxxxx',
 ```
 
-Create a app in Slack and create an incoming webhook to a channel of your chosing, copy the URL.
+Create a app in Slack and create an incoming webhook to a channel of your choosing, copy the URL.
 Edit your index.js
 ```
 var slack_url = 'https://hooks.slack.com/services/T5xxxxxR8TG/B9AxxxxT/1Qxxxxxxxxxxxx';
